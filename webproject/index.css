@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+body {	
+  background-image: url(images/main1.jpg);
+  
+  background-color: #cccccc;
+	background-size:cover;
+	background-attachment:fixed;
+	
+}
+
+button[type=submit] {
+    background-color:transparent;
+    background-repeat:no-repeat;
+    border: 2px solid #1AA609;
+	border-radius: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	color: aliceblue;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	font-size: 30px;
+	margin-left: 45%;
+	margin-top: 25%;
+}
+
+button {
+  transition-duration: 0.4s;
+}
+
+button[type=submit]:hover {
+  background-color: #1AA609; 
+  color: white;
+	border: 2px solid black;
+	
+}
+
+input[type=text] {
+	background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+	  
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+	color: aliceblue;
+}
+
+input[type=password] {
+	background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+	  
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+	color: aliceblue;
+}
+
+.f {
+    display: inline-block;
+	padding-left: 42%;
+	padding-top: 25%;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-family: "Brain Flower";
+}
+
+.footer {
+  position: fixed;
+float: left;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+	border: none;
+  color: white;
+	padding: none;
+  
+}
+h6{
+	font-family:cookie;
+}
+

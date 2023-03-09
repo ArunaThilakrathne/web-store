@@ -1,0 +1,173 @@
+@charset "utf-8";
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000;
+  position: relative;
+  margin: none;
+
+	
+
+	
+}
+
+table {
+	margin-top: 2%;
+	margin-left: 36.4%;
+  
+  font-size:75px;
+
+  position: absolute;
+  top: 0;
+	font-family:"No. Seven Regular";
+
+	
+}
+
+.a{
+	 
+  font-size:30px;
+  padding: 95px 12px;
+  position: absolute;
+  top: 0;
+	font-family:"No. Seven Regular";
+}
+
+
+
+.main{
+	
+	font-family:"No. Seven Regular";
+	font-size: 50px;
+	  color:black;
+	position: absolute;
+	
+  
+ 
+}
+
+
+body{
+	position:fixed;
+	margin: 0;
+}
+
+
+
+.mySlides {
+  display: none;
+}
+
+
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.nn{margin-top: 15%;
+	margin-left: 40.4%;
+  position: absolute;
+  top: 0;
+text-align: center;
+	
+
+	
+
+}
+
+
+
+
+
+
+
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+	
+
+
+
+
+p{
+	margin-top:47%;
+	width: 100%;
+
+	font-size: 23px;
+
+  position: absolute;
+  top: 0;
+text-align:center;
+	font-family: "Brain Flower";
+color: white;
+}
+
+.aaa{
+font-family: "Brain Flower";
+	color: white;
+	font-size: 50px;
+}
+
+
+.tdd{
+	
+	padding: 20px;
+	font-family: "Brain Flower";
+	font-size: 25px;
+	color: white;
+	margin: 5px;
+
+
+	
+	
+	
+	
+}
+input[type=text]{
+	padding: 6px;
+	background-color: transparent;
+border-color: transparent;
+	border-bottom-color: white;
+
+	
+	
+}
+
+input[type=password]{
+	padding: 6px;
+	background-color: transparent;
+border-color: transparent;
+	border-bottom-color: white;
+	
+	
+}
+
+hr{
+color:black;
+}
+
+.noselect{
+	
+	background-image:url(../images/login.png);
+}

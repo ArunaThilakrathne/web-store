@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+.home-links h2{
+	
+font-size: 30px;
+	font-weight: 700;
+	color:white;
+	text-transform: uppercase;
+}
+
+.home-container{
+	
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+}
+
+.home-container a {
+	
+	width:230px;
+	margin: 20px 10px 0;
+	
+}
+
+.home-container a:hover{
+	opacity:0.8;
+	text-decoration: none;
+
+}
+
+
+
+.home-container a div {
+	width:100%;
+	height: 235px;
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.home-container a h3{
+	font-size: 20px;
+	font-weight: 700px;
+	color: white;
+	
+}
+
+.home-container a p{
+	font-size: 15px;
+	font-weight: 400px;
+	color: white;
+}
+
+
+.wrapper{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+.btnst{
+	 background-color: transparent;
+  color: white;
+ border: none;
+	font-size:20px;
+	font-family: "Brain Flower";
+	margin: none;
+	padding: none;
+	
+	
+}
+
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button[type=submit], input[type=submit], input[type=file] {
+  background-color: transparent;
+  border: solid 1px #FFFFFF;
+ border-radius: 12px;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+	color: white;
+}
+
+.tst{
+	width:50px;
+	padding: 20px;
+}
+
